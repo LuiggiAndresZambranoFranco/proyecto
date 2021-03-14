@@ -1,0 +1,1191 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Todo Hogar</title>
+
+	<!-- Google font -->
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700" rel="stylesheet">
+
+	<!-- Bootstrap -->
+	<link type="text/css" rel="stylesheet" href="css/bootstrap.min.css" />
+
+	<!-- Slick -->
+	<link type="text/css" rel="stylesheet" href="css/slick.css" />
+	<link type="text/css" rel="stylesheet" href="css/slick-theme.css" />
+
+	<!-- nouislider -->
+	<link type="text/css" rel="stylesheet" href="css/nouislider.min.css" />
+
+	<!-- Font Awesome Icon -->
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+
+	<!-- Custom stlylesheet -->
+	<link type="text/css" rel="stylesheet" href="css/style.css" />
+
+	
+
+</head>
+
+<body>
+	<!-- HEADER -->
+	<header>
+		<!-- encabezado -->
+		<div id="top-header">
+			<div class="container">
+				<ul class="header-links pull-left">
+					<li><a href=""><i class="fa fa-phone"></i> +011-11-11-11</a></li>
+					<li><a href=""><i class="fa fa-envelope-o"></i> todohogar@gmail.com</a></li>
+
+				</ul>
+				
+			</div>
+		</div>
+		<!-- /cierre del encabezado -->
+
+		<!-- MAIN HEADER -->
+		<div id="header">
+			<!-- container -->
+			<div class="container">
+				<!-- row -->
+				<div class="row">
+					<!-- LOGO -->
+					<div class="col-md-3">
+						<div class="header-logo">
+							<a href="index.html" class="logo">
+								<img src="./img/todohogar-logo.jpg" alt="Logotipo todohogar">
+							</a>
+						</div>
+					</div>
+					<!-- /LOGO -->
+
+					<!-- buscador -->
+					<div class="col-md-6">
+						<div class="header-search">
+							<form>
+								<select class="input-select">
+									<option value="0">All Categorias</option>
+									<option value="1">Tecnologia</option>
+									<option value="2">Hogar</option>
+									<option value="3">Electrodomesticos</option>
+								</select>
+								<input class="input" placeholder="Busca Aqui">
+								<button class="search-btn">buscar</button>
+							</form>
+						</div>
+					</div>
+					<!-- /cierra opciones de busqueda -->
+
+					<!-- ACCOUNT -->
+					<div class="col-md-3 clearfix">
+						<div class="header-ctn">
+							<!-- Wishlist -->
+							<div>
+								<a href="#">
+									<i class="fa fa-heart-o"></i>
+									<span>Lista deseados</span>
+									<div class="qty">0</div>
+								</a>
+							</div>
+							<!-- /Wishlist -->
+
+							<!-- Cart -->
+							<div class="dropdown">
+								<a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true">
+									<i class="fa fa-shopping-cart"></i>
+									<span>carrito</span>
+									<div class="qty">0</div>
+								</a>
+								<div class="cart-dropdown">
+									<div class="cart-list">
+										<div class="product-widget">
+											<div class="product-img">
+												<img src="./img/product01.png" alt="Laptop">
+											</div>
+											<div class="product-body">
+												<h3 class="product-name"><a href="#">product name goes here</a></h3>
+												<h4 class="product-price"><span class="qty">1x</span>$980.00</h4>
+											</div>
+											<button class="delete"><i class="fa fa-close"></i></button>
+										</div>
+
+										<div class="product-widget">
+											<div class="product-img">
+												<img src="./img/product02.png" alt="auriculares">
+											</div>
+											<div class="product-body">
+												<h3 class="product-name"><a href="#">product name goes here</a></h3>
+												<h4 class="product-price"><span class="qty">3x</span>$980.00</h4>
+											</div>
+											<button class="delete"><i class="fa fa-close"></i></button>
+										</div>
+									</div>
+									<div class="cart-summary">
+										<small>3 Item(s) selected</small>
+										<h5>SUBTOTAL: $2940.00</h5>
+									</div>
+									<div class="cart-btns">
+										<a href="#" id="vaciar-carrito">limpiar</a>
+										<a href="checkout.html">comprar <i class="fa fa-arrow-circle-right"></i></a>
+									</div>
+								</div>
+							</div>
+							<!-- /Cart -->
+
+							<!-- Menu Toogle -->
+							<div class="menu-toggle">
+								<a href="#">
+									<i class="fa fa-bars"></i>
+									<span>Menu</span>
+								</a>
+							</div>
+							<!-- /Menu Toogle -->
+						</div>
+					</div>
+					<!-- /ACCOUNT -->
+				</div>
+				<!-- row -->
+			</div>
+			<!-- container -->
+		</div>
+		<!-- /MAIN HEADER -->
+	</header>
+	<!-- /HEADER -->
+
+	<!-- NAVIGATION -->
+	<nav id="navigation">
+		<!-- container -->
+		<div class="container">
+			<!-- responsive-nav -->
+			<div id="responsive-nav">
+				<!-- NAV -->
+				<ul class="main-nav nav navbar-nav">
+					<li class="active"><a href="#hogar">hogar</a></li>
+					<li><a href="#oferta">Ofertas especiales</a></li>
+					<li><a href="#laptop">Laptops</a></li>
+					<li><a href="#hogar">hogar</a></li>
+					<li><a href="#celular">Celular</a></li>
+				</ul>
+				<!-- /NAV -->
+			</div>
+			<!-- /responsive-nav -->
+		</div>
+		<!-- /container -->
+	</nav>
+	<!-- /NAVIGATION -->
+
+	<!-- SECTION -->
+	<div class="section">
+		<!-- container -->
+		<div class="container">
+			<!-- row -->
+			<div class="row">
+				<!-- coleccion 1 -->
+				<div class="col-md-4 col-xs-6">
+					<div class="shop">
+						<div class="shop-img">
+							<img src="./img/asus-laptop-zenbook-um425i-ryzen-5-4500u-8gb-256gb-ssd-win10-home-14.jpg" alt="coleccion de Laptops">
+						</div>
+						<div class="shop-body">
+							<h3>Colección<br>Laptop</h3>
+							<a href="#laptop" class="cta-btn">compra ahora <i class="fa fa-arrow-circle-right"></i></a>
+						</div>
+					</div>
+				</div>
+				<!-- /coleccion 1 -->
+
+				<!-- coleccion 2 -->
+				<div class="col-md-4 col-xs-6">
+					<div class="shop">
+						<div class="shop-img">
+							<img src="./img/samsung-galaxy-a31-ch29314-4gb-128gb-5000mah-64.jpg" alt="coleccion de Accesorios">
+						</div>
+						<div class="shop-body">
+							<h3>Colección<br>Celulares</h3>
+							<a href="#celular" class="cta-btn">Comprar ahora <i
+									class="fa fa-arrow-circle-right"></i></a>
+						</div>
+					</div>
+				</div>
+				<!-- /coleccion 2 -->
+
+				<!-- coleccion 3 -->
+				<div class="col-md-4 col-xs-6">
+					<div class="shop">
+						<div class="shop-img">
+							<img src="./img/microondas-de-14-1450w-acero-inoxidable-whirlpool-2495-395.jpg" alt="coleccion de hogar">
+						</div>
+						<div class="shop-body">
+							<h3>Colección<br>Hogar</h3>
+							<a href="#hogar" class="cta-btn">Comprar ahora <i class="fa fa-arrow-circle-right"></i></a>
+						</div>
+					</div>
+				</div>
+				<!-- /coleccion 3 -->
+			</div>
+			<!-- /row -->
+		</div>
+		<!-- /container -->
+	</div>
+	<!-- /SECTION -->
+
+	<!-- SECTION -->
+	<div class="section">
+		<!-- container -->
+		<div class="container">
+			<!-- row -->
+			<div class="row">
+
+				<!-- titulos primer apartado -->
+				<div class="col-md-12">
+					<div class="section-title">
+						<h3 class="title">Productos nuevos</h3>
+					</div>
+				</div>
+				<!-- /section title -->
+
+				<!-- Products tab & slick -->
+				<div class="col-md-12">
+					<div class="row">
+						<div class="products-tabs">
+							<!-- tab -->
+							<div id="tab1" class="tab-pane active">
+								<div class="products-slick" data-nav="#slick-nav-1">
+									<!-- producto numero 1 -->
+									<div class="product">
+										<div class="product-img">
+											<img src="./img/jarra-cafetera-12-tazas-de-vidrio-medelco-inc-1174-6.jpg"
+												alt="Jarra cafetera 12 tazas de vidrio Medelco Inc.">
+											<div class="product-label">
+												<span class="sale">-30%</span>
+												<span class="new">NEW</span>
+											</div>
+										</div>
+										<div class="product-body">
+											<p class="product-category">Hogar</p>
+											<h3 class="product-name"><a href="productcafetera.html">Jarra cafetera 12 tazas de vidrio
+													Medelco Inc.</a></h3>
+											<h4 class="product-price">$17.99 <del class="product-old-price">$21.19</del>
+											</h4>
+											<div class="product-rating">
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+											</div>
+											<div class="product-btns">
+												<button class="add-to-wishlist" aria-label="agregar  a lista" ><i class="fa fa-heart-o"></i><span
+														class="tooltipp" aria-hidden="true">agregar a lista</span></button>
+
+												<button class="quick-view" aria-label="ver producto"><a href="productcafetera.html"><i
+															class="fa fa-eye"></i><span class="tooltipp" aria-hidden="true">Ver
+															producto</span></button></a>
+											</div>
+										</div>
+										<div class="add-to-cart">
+											<button class="add-to-cart-btn" aria-label="agregar a carrito" ><i class="fa fa-shopping-cart" aria-hidden="true"></i> agregar
+												a carrito </button>
+										</div>
+									</div>
+									<!-- /product -->
+
+									<!-- product -->
+									<div class="product">
+										<div class="product-img">
+											<img src="./img/microondas-de-14-1450w-acero-inoxidable-whirlpool-2495-395.jpg"
+												alt="Microondas de 1.4' 1450W acero inoxidable Whirlpool">
+											<div class="product-label">
+												<span class="new">NEW</span>
+											</div>
+										</div>
+										<div class="product-body">
+											<p class="product-category">Hogar</p>
+											<h3 class="product-name"><a href="productmicroondas.html">Microondas de 1.4' 1450W acero
+													inoxidable Whirlpool</a></h3>
+											<h4 class="product-price">$174.00 <del
+													class="product-old-price">$193.00</del></h4>
+											<div class="product-rating">
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star-o"></i>
+											</div>
+											<div class="product-btns">
+												<button class="add-to-wishlist" aria-label="agregar a lista"><i class="fa fa-heart-o"></i><span
+														class="tooltipp" aria-hidden="true">agregar a lista</span></button>
+
+												<button class="quick-view" aria-label="ver producto" ><a href="productmicroondas.html"><i
+															class="fa fa-eye"></i><span class="tooltipp" aria-hidden="true">Ver
+															producto</span></button></a>
+											</div>
+										</div>
+										<div class="add-to-cart">
+											<button class="add-to-cart-btn" aria-label="agregar a carrito"><i class="fa fa-shopping-cart" aria-hidden="true"></i> agregar
+												a carrito</button>
+										</div>
+									</div>
+									<!-- /product -->
+
+									<!-- product -->
+									<div class="product">
+										<div class="product-img">
+											<img src="./img/hp-laptop-14-dq1038wm-core-i3-1005-12ghz-4gb-128ssd-windows-10-home-ingles-gold-14.jpg"
+												alt="HP Laptop 240 G7 Core i3-1005G 4GB / 1TB Win10 Home 14'">
+											<div class="product-label">
+												<span class="sale">-30%</span>
+											</div>
+										</div>
+										<div class="product-body">
+											<p class="product-category">Laptop</p>
+											<h3 class="product-name"><a href="producthp.html">hp-laptop-14-dq1038wm-core-i3-1005-12ghz-4gb-128ssd-windows-10-home-ingles-gold-14'</a></h3>
+											<h4 class="product-price">$626.39 <del
+													class="product-old-price">$695.99</del></h4>
+											<div class="product-rating">
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star-o"></i>
+
+											</div>
+											<div class="product-btns">
+												<button class="add-to-wishlist" aria-label="agregar a lista"><i class="fa fa-heart-o"></i><span
+														class="tooltipp" aria-hidden="true">agregar a lista</span></button>
+
+												<button class="quick-view" aria-label="ver producto"><a href="producthp.html"><i
+															class="fa fa-eye"></i><span class="tooltipp" aria-hidden="true">Ver
+															producto</span></button></a>
+											</div>
+										</div>
+										<div class="add-to-cart">
+											<button class="add-to-cart-btn" aria-label="agregar a carrito" ><i class="fa fa-shopping-cart" aria-hidden="true"></i> agregar
+												a carrito</button>
+										</div>
+									</div>
+									<!-- /product -->
+
+									<!-- product -->
+									<div class="product">
+										<div class="product-img">
+											<img src="./img/dell-laptop-inspiron-15-5502-core-i7-1165g7-8gb-512gb-ssd-2gb-de-video-win10-home-156.jpg"
+												alt="Dell Laptop Inspiron 15 5502 Core i7 1165G7 8GB / 512GB SSD / 2GB de video Win10 Home 15.6'">
+										</div>
+										<div class="product-body">
+											<p class="product-category">Category</p>
+											<h3 class="product-name"><a href="productdell.html">Dell Laptop Inspiron 15 5502 Core i7
+													1165G7 8GB / 512GB SSD / 2GB de video Win10 Home 15.6"</a></h3>
+											<h4 class="product-price">$1.254.59 <del
+													class="product-old-price">$1.393.99</del></h4>
+											<div class="product-rating">
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+											</div>
+											<div class="product-btns">
+												<button class="add-to-wishlist" aria-label="agregar a lista"><i class="fa fa-heart-o"></i><span
+														class="tooltipp" aria-hidden="true">agregar a lista</span></button>
+
+												<button class="quick-view" aria-label="ver producto"><a href="productdell.html"><i
+															class="fa fa-eye"></i><span class="tooltipp" aria-hidden="true">Ver
+															producto</span></button></a>
+											</div>
+										</div>
+										<div class="add-to-cart">
+											<button class="add-to-cart-btn" aria-label="agregar a carrito"><i class="fa fa-shopping-cart" aria-hidden="true"></i> agregar
+												a carrito</button>
+										</div>
+									</div>
+									<!-- /product -->
+
+									<!-- product -->
+									<div class="product">
+										<div class="product-img">
+											<img src="./img/xiaomi-mi-10t-pro-5g-ch29751-8gb-128gb-108mp-8k-5000mah-667.jpg"
+												alt="Xiaomi Mi 10T Pro 5G CH29751 8GB / 128GB / 108MP / 8K / 5000mAh 6.67'">
+										</div>
+										<div class="product-body">
+											<p class="product-category">Celular</p>
+											<h3 class="product-name"><a href="productmi10t.html">Xiaomi Mi 10T Pro 5G CH29751 8GB /
+													128GB / 108MP / 8K / 5000mAh 6.67"</a></h3>
+											<h4 class="product-price">$1.016.99 <del
+													class="product-old-price">$1.129.99</del></h4>
+											<div class="product-rating">
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+											</div>
+											<div class="product-btns">
+												<button class="add-to-wishlist" aria-label="agregar a lista"><i class="fa fa-heart-o"></i><span
+														class="tooltipp" aria-hidden="true">agregar a lista</span></button>
+
+														<button class="quick-view" aria-label="ver producto" ><a href="productmi10t.html"><i class="fa fa-eye"></i><span
+															class="tooltipp" aria-hidden="true">Ver producto</span></button></a>
+											</div>
+										</div>
+										<div class="add-to-cart">
+											<button class="add-to-cart-btn" aria-label="agregar a carrito"><i class="fa fa-shopping-cart" aria-hidden="true"></i> agregar
+												a carrito </button>
+										</div>
+									</div>
+									<!-- /product -->
+								</div>
+								<div id="slick-nav-1" class="products-slick-nav"></div>
+							</div>
+							<!-- /tab -->
+						</div>
+					</div>
+				</div>
+				<!-- Products tab & slick -->
+			</div>
+			<!-- /row -->
+		</div>
+		<!-- /container -->
+	</div>
+	<!-- /SECTION -->
+
+	<!-- HOT DEAL SECTION -->
+	<div id="hot-deal" class="section">
+		<!-- container -->
+		<div class="container" id="oferta">
+			<!-- row -->
+			<div class="row">
+				<div class="col-md-12">
+					<div class="hot-deal">
+						<ul class="hot-deal-countdown">
+							<li>
+								<div>
+									<h3>02</h3>
+									<span>Days</span>
+								</div>
+							</li>
+							<li>
+								<div>
+									<h3>10</h3>
+									<span>Hours</span>
+								</div>
+							</li>
+							<li>
+								<div>
+									<h3>34</h3>
+									<span>Mins</span>
+								</div>
+							</li>
+							<li>
+								<div>
+									<h3>60</h3>
+									<span>Secs</span>
+								</div>
+							</li>
+						</ul>
+						<h2 class="text-uppercase" >OFERTA ESPECIAL ESTA SEMANA</h2>
+						<p>NUEVA COLECCIÓN HASTA 50% DE DESCUENTO</p>
+						<a class="primary-btn cta-btn" href="#laptop">comprar ahora</a>
+					</div>
+				</div>
+			</div>
+			<!-- /row -->
+		</div>
+		<!-- /container -->
+	</div>
+	<!-- /HOT DEAL SECTION -->
+
+	<!-- SECTION -->
+	<div class="section">
+		<!-- container -->
+		<div class="container">
+			<!-- row -->
+			<div class="row">
+
+				<!-- section title -->
+				<div class="col-md-12">
+					<div class="section-title">
+						<h3 class="title">mas vendidos</h3>
+
+					</div>
+				</div>
+				<!-- /section title -->
+
+				<!-- Products tab & slick -->
+				<div class="col-md-12">
+					<div class="row">
+						<div class="products-tabs">
+							<!-- tab -->
+							<div id="tab2" class="tab-pane fade in active">
+								<div class="products-slick" data-nav="#slick-nav-2">
+									<!-- product -->
+									<div class="product">
+										<div class="product-img">
+											<img src="./img/xiaomi-mi-10t-pro-5g-ch29751-8gb-128gb-108mp-8k-5000mah-667.jpg" alt="">
+											<div class="product-label">
+												<span class="sale">-30%</span>
+												<span class="new">NEW</span>
+											</div>
+										</div>
+										<div class="product-body">
+											<p class="product-category">Celular</p>
+											<h3 class="product-name"><a href="productmi10t.html">Xiaomi Mi 10T Pro 5G CH29751 8GB /
+												128GB / 108MP / 8K / 5000mAh 6.67"</a></h3>
+											<h4 class="product-price">$1.016.99 <del
+													class="product-old-price">$1.129.99</del></h4>
+											<div class="product-rating">
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star-o"></i>
+											</div>
+											<div class="product-btns">
+												<button class="add-to-wishlist" aria-label="agregar a lista"><i class="fa fa-heart-o"></i><span
+														class="tooltipp" aria-hidden="true">agregar a deseados</span></button>
+
+														<button class="quick-view" aria-label="ver producto" ><a href="productmi10t.html"><i class="fa fa-eye"></i><span
+															class="tooltipp" aria-hidden="true">Ver producto</span></button></a>
+											</div>
+										</div>
+										<div class="add-to-cart">
+											<button class="add-to-cart-btn" aria-label="agregar a carrito"><i class="fa fa-shopping-cart"></i> agregar a carrito</button>
+										</div>
+									</div>
+									<!-- /product -->
+
+									<!-- product -->
+									<div class="product">
+										<div class="product-img">
+											<img src="./img/xiaomi-celular-poco-m3.jpg" alt="xiaomi-celular-poco-m3">
+											<div class="product-label">
+												<span class="new">NEW</span>
+											</div>
+										</div>
+										<div class="product-body">
+											<p class="product-category">Celular</p>
+											<h3 class="product-name"><a href="productpoco.html">Xiaomi Celular Poco M3</a></h3>
+											<h4 class="product-price">$980.00 <del
+													class="product-old-price">$990.00</del></h4>
+											<div class="product-rating">
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+											</div>
+											<div class="product-btns">
+												<button class="add-to-wishlist" aria-label="agregar a lista"><i class="fa fa-heart-o"></i><span
+														class="tooltipp" aria-hidden="true">add to wishlist</span></button>
+
+														<button class="quick-view" aria-label="ver producto" ><a href="productpoco.html"><i class="fa fa-eye"></i><span
+															class="tooltipp"aria-hidden="true" >Ver producto</span></button></a>
+											</div>
+										</div>
+										<div class="add-to-cart">
+											<button class="add-to-cart-btn" aria-label="agregar a carrito" ><i class="fa fa-shopping-cart" aria-hidden="true"></i> add to
+												cart</button>
+										</div>
+									</div>
+									<!-- /product -->
+
+									<!-- product -->
+									<div class="product">
+										<div class="product-img">
+											<img src="./img/jarra-cafetera-12-tazas-de-vidrio-medelco-inc-1174-6.jpg" alt="jarra-cafetera-12-tazas-de-vidrio-medelco-inc">
+											<div class="product-label">
+												<span class="sale">-30%</span>
+											</div>
+										</div>
+										<div class="product-body">
+											<p class="product-category">Hogar</p>
+											<h3 class="product-name"><a href="productcafetera.html">Jarra cafetera 12 tazas de vidrio</a></h3>
+											<h4 class="product-price">$17.99 <del
+													class="product-old-price">$21.19</del></h4>
+													<div class="product-rating">
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+														<i class="fa fa-star-o"></i>
+														<i class="fa fa-star-o"></i>
+													</div>
+											<div class="product-btns">
+												<button class="add-to-wishlist" aria-label="agregar a lista"><i class="fa fa-heart-o"></i><span
+														class="tooltipp" aria-hidden="true" >agregar a lista</span></button>
+
+														<button class="quick-view" aria-label="ver producto" ><a href="productcafetera.html"><i class="fa fa-eye"></i><span
+															class="tooltipp" aria-hidden="true">Ver producto</span></button></a>
+											</div>
+										</div>
+										<div class="add-to-cart">
+											<button class="add-to-cart-btn" aria-label="agregar a carrito" ><i class="fa fa-shopping-cart" aria-hidden="true" ></i> agregar a carrito</button>
+										</div>
+									</div>
+									<!-- /product -->
+
+									<!-- product -->
+									<div class="product">
+										<div class="product-img">
+											<img src="./img/asus-laptop-zenbook-um425i-ryzen-5-4500u-8gb-256gb-ssd-win10-home-14.jpg" alt="Asus Laptop ZenBook UM425I Ryzen 5 4500U 8GB / 256GB SSD Win10 Home 14'">
+										</div>
+										<div class="product-body">
+											<p class="product-category">Laptop</p>
+											<h3 class="product-name"><a href="productasus.html">Asus Laptop ZenBook UM425I Ryzen 5 4500U 8GB /
+												256GB SSD Win10 Home 14"</a></h3>
+											<h4 class="product-price">$1.057.49 <del class="product-old-price">$1.174.99</del>
+											</h4>
+											<div class="product-rating">
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+											</div>
+											<div class="product-btns">
+												<button class="add-to-wishlist" aria-label="agregar a lista" ><i class="fa fa-heart-o"></i><span
+														class="tooltipp" aria-hidden="true" >agregar a lista </span></button>
+
+														<button class="quick-view" aria-label="ver producto" ><a href="product.html"><i class="fa fa-eye"></i><span
+															class="tooltipp" aria-hidden="true" >Ver producto</span></button></a>
+											</div>
+										</div>
+										<div class="add-to-cart">
+											<button class="add-to-cart-btn" aria-label="agregar a carrito"><i class="fa fa-shopping-cart" aria-hidden="true"></i> agregar a carrito </button>
+										</div>
+									</div>
+									<!-- /product -->
+
+									<!-- product -->
+									<div class="product">
+										<div class="product-img">
+											<img src="./img/acer-laptop-nitro-5-core-i5-9300h-8gb-1tb-128gb-ssd-video-4gb-windows-10-home-15.jpg" alt="Acer Laptop Nitro 5 Core i5-9300H 8GB / 1TB - 128GB SSD / Video 4GB Windows 10 Home 15'">
+										</div>
+										<div class="product-body">
+											<p class="product-category">Laptop</p>
+											<h3 class="product-name"><a href="productacer.html">Acer Laptop Nitro 5 Core i5-9300H 8GB / 1TB -
+												128GB SSD / Video 4GB Windows 10 Home 15"</a></h3>
+												<h4 class="product-price">$1.302.29 <del class="product-old-price">$1508.00</del>
+												</h4>
+											<div class="product-rating">
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+											</div>
+											<div class="product-btns">
+												<button class="add-to-wishlist" aria-label="agregar a lista"><i class="fa fa-heart-o"></i><span
+														class="tooltipp" aria-hidden="true" >agregar a lista</span></button>
+
+														<button class="quick-view" aria-label="ver producto" ><a href="productacer.html"><i class="fa fa-eye"></i><span
+															class="tooltipp" aria-hidden="true" >Ver producto</span></button></a>
+											</div>
+										</div>
+										<div class="add-to-cart">
+											<button class="add-to-cart-btn" aria-label="agregar a carrito" ><i class="fa fa-shopping-cart" aria-hidden="true"></i> agregar a carrito</button>
+										</div>
+									</div>
+									<!-- /product -->
+								</div>
+								<div id="slick-nav-2" class="products-slick-nav"></div>
+							</div>
+							<!-- /tab -->
+						</div>
+					</div>
+				</div>
+				<!-- /Products tab & slick -->
+			</div>
+			<!-- /row -->
+		</div>
+		<!-- /container -->
+	</div>
+	<!-- /SECTION -->
+
+	<!-- SECTION -->
+	<div class="section">
+		<!-- container -->
+		<div class="container">
+			<!-- row -->
+			<div class="row">
+				<!-- carrussel de Laptop -->
+				<div class="col-md-4 col	-xs-6">
+					<div class="section-title">
+						<h4 class="title" id="laptop">Laptops más vendidas</h4>
+						<div class="section-nav">
+							<div id="slick-nav-3" class="products-slick-nav"></div>
+						</div>
+					</div>
+
+					<div class="products-widget-slick" data-nav="#slick-nav-3">
+						<div>
+							<!-- producto 1 -->
+							<div class="product-widget">
+								<div class="product-img">
+									<img src="./img/asus-laptop-zenbook-um425i-ryzen-5-4500u-8gb-256gb-ssd-win10-home-14.jpg"
+										alt="Asus Laptop ZenBook UM425I Ryzen 5 4500U 8GB / 256GB SSD Win10 Home 14'">
+								</div>
+								<div class="product-body">
+									<p class="product-category">Laptop</p>
+									<h3 class="product-name"><a href="productasus.html">Asus Laptop ZenBook UM425I Ryzen 5 4500U 8GB /
+											256GB SSD Win10 Home 14"</a></h3>
+									<h4 class="product-price">$980.00 <del class="product-old-price">$1.057.49</del>
+									</h4>
+								</div>
+							</div>
+							<!-- /producto 1 -->
+
+							<!-- producto2 -->
+							<div class="product-widget">
+								<div class="product-img">
+									<img src="./img/acer-laptop-nitro-5-core-i5-9300h-8gb-1tb-128gb-ssd-video-4gb-windows-10-home-15.jpg"
+										alt="Acer Laptop Nitro 5 Core i5-9300H 8GB / 1TB - 128GB SSD / Video 4GB Windows 10 Home 15'">
+								</div>
+								<div class="product-body">
+									<p class="product-category">Laptop</p>
+									<h3 class="product-name"><a href="productacer.html">Acer Laptop Nitro 5 Core i5-9300H 8GB / 1TB -
+											128GB SSD / Video 4GB Windows 10 Home 15"</a></h3>
+									<h4 class="product-price">$1.302.29 <del class="product-old-price">$1508.00</del>
+									</h4>
+								</div>
+							</div>
+							<!-- /producto 2 -->
+
+							<!-- producto 3 -->
+							<div class="product-widget">
+								<div class="product-img">
+									<img src="./img/xtratech-mini-laptop-intel-quadcore-z8350-4gb-64gb-wi-fi-windows-10-home-101-mn-1022x.jpg"
+										alt="Xtratech Mini Laptop Intel Quadcore Z8350 4GB / 64GB Wi-Fi Windows 10 Home 10.1' MN-1022X">
+								</div>
+								<div class="product-body">
+									<p class="product-category">Laptop</p>
+									<h3 class="product-name"><a href="productxtra.html">Xtratech Mini Laptop Intel Quadcore Z8350 4GB /
+											64GB Wi-Fi Windows 10 Home 10.1" MN-1022X</a></h3>
+									<h4 class="product-price">$263.69 <del class="product-old-price">$400.00</del></h4>
+								</div>
+							</div>
+							<!-- /producto 3 -->
+						</div>
+
+						<div>
+							<!-- producto 4 -->
+							<div class="product-widget">
+								<div class="product-img">
+									<img src="./img/hp-laptop-envy-x360-13-ag000la-amd-ryzen-5-8gb-256gb-133.jpg"
+										alt="HP Laptop Envy x360 13-ag000la AMD Ryzen 5 8GB / 256GB 13.3'">
+								</div>
+								<div class="product-body">
+									<p class="product-category">Laptop</p>
+									<h3 class="product-name"><a href="productenvy.html">HP Laptop Envy x360 13-ag000la AMD Ryzen 5 8GB
+											/ 256GB 13.3"</a></h3>
+									<h4 class="product-price">$1.158.00 <del class="product-old-price">$1.200.00</del>
+									</h4>
+								</div>
+							</div>
+							<!-- /producto 4-->
+
+							<!-- producto 5 -->
+							<div class="product-widget">
+								<div class="product-img">
+									<img src="./img/hp-laptop-14-dq1038wm-core-i3-1005-12ghz-4gb-128ssd-windows-10-home-ingles-gold-14.jpg"
+										alt="hp-laptop-14-dq1038wm-core-i3-1005-12ghz-4gb-128ssd-windows-10-home-ingles-gold-14'">
+								</div>
+								<div class="product-body">
+									<p class="product-category">Laptop</p>
+									<h3 class="product-name"><a
+											href="producthp.html">hp-laptop-14-dq1038wm-core-i3-1005-12ghz-4gb-128ssd-windows-10-home-ingles-gold-14'</a>
+									</h3>
+									<h4 class="product-price">$697.49 <del class="product-old-price">$840.00</del></h4>
+								</div>
+							</div>
+							<!-- /producto 5 -->
+
+							<!-- producto 6 -->
+							<div class="product-widget">
+								<div class="product-img">
+									<img src="./img/dell-laptop-inspiron-15-5502-core-i7-1165g7-8gb-512gb-ssd-2gb-de-video-win10-home-156.jpg"
+										alt="Dell Laptop Inspiron 15 5502 Core i7 1165G7 8GB / 512GB SSD / 2GB de video Win10 Home 15.6'">
+								</div>
+								<div class="product-body">
+									<p class="product-category">Laptop</p>
+									<h3 class="product-name"><a href="productdell.html">Dell Laptop Inspiron 15 5502 Core i7 1165G7 8GB / 512GB SSD / 2GB de video Win10 Home 15.6'</a></h3>
+									<h4 class="product-price">$1.254.59 <del class="product-old-price">$1.393.99</del>
+									</h4>
+								</div>
+							</div>
+							<!-- producto 6 -->
+						</div>
+					</div>
+				</div>
+				<!-- carrussel de hogar -->
+				<div class="col-md-4 col-xs-6">
+					<div class="section-title">
+						<h4 class="title" id="hogar">mas vendido hogar</h4>
+						<div class="section-nav">
+							<div id="slick-nav-4" class="products-slick-nav"></div>
+						</div>
+					</div>
+
+					<div class="products-widget-slick" data-nav="#slick-nav-4">
+						<div>
+							<!-- producto 1 -->
+							<div class="product-widget">
+								<div class="product-img">
+									<img src="./img/aceite-aromatico-todohogar-30ml.jpg"
+										alt="Aceite aromático Todohogar 30ml">
+								</div>
+								<div class="product-body">
+									<p class="product-category">Hogar</p>
+									<h3 class="product-name"><a href="productaceite.html">Aceite aromático Todohogar 30ml</a></h3>
+									<h4 class="product-price">$6.00 <del class="product-old-price">$6.99</del></h4>
+								</div>
+							</div>
+							<!-- /producto 1 -->
+
+							<!-- producto 2 -->
+							<div class="product-widget">
+								<div class="product-img">
+									<img src="./img/tijeras-para-el-hogar-7.jpg" alt="Tijeras para el hogar 7'">
+								</div>
+								<div class="product-body">
+									<p class="product-category">Hogar</p>
+									<h3 class="product-name"><a href="producttijera.html">Tijeras para el hogar 7"</a></h3>
+									<h4 class="product-price">$3.83 <del class="product-old-price">$4.26</del></h4>
+								</div>
+							</div>
+							<!-- /producto 2 -->
+
+							<!-- producto 3 -->
+							<div class="product-widget">
+								<div class="product-img">
+									<img src="./img/desinfectante-todohogar-500ml.jpg"
+										alt="Desinfectante Todohogar 500ml">
+								</div>
+								<div class="product-body">
+									<p class="product-category">Hogar</p>
+									<h3 class="product-name"><a href="productdesinfec.html">Desinfectante Todohogar 500ml</a></h3>
+									<h4 class="product-price">$3.49 <del class="product-old-price">$4.99</del></h4>
+								</div>
+							</div>
+							<!-- producto 3 -->
+						</div>
+
+						<div>
+							<!-- producto 4 -->
+							<div class="product-widget">
+								<div class="product-img">
+									<img src="./img/jarra-cafetera-12-tazas-de-vidrio-medelco-inc-1174-6.jpg"
+										alt="jarra-cafetera-12-tazas-de-vidrio-medelco-inc">
+								</div>
+								<div class="product-body">
+									<p class="product-category">Hogar</p>
+									<h3 class="product-name"><a href="productcafetera.html">Jarra cafetera 12 tazas de vidrio
+										Medelco Inc.</a>
+									</h3>
+									<h4 class="product-price">$17.99 <del class="product-old-price">$21.19</del></h4>
+								</div>
+							</div>
+							<!-- /producto 4 -->
+
+							<!-- producto 5 -->
+							<div class="product-widget">
+								<div class="product-img">
+									<img src="./img/microondas-de-14-1450w-acero-inoxidable-whirlpool-2495-395.jpg"
+										alt="Microondas de 1.4' 1450W acero inoxidable Whirlpool">
+								</div>
+								<div class="product-body">
+									<p class="product-category">Hogar</p>
+									<h3 class="product-name"><a href="productmicroondas.html">Microondas de 1.4' 1450W acero
+										inoxidable Whirlpool</a></h3>
+										<h4 class="product-price">$174.00 <del
+											class="product-old-price">$193.00</del></h4>
+								</div>
+							</div>
+							<!-- /producto 5 -->
+
+							<!-- producto 6 -->
+							<div class="product-widget">
+								<div class="product-img">
+									<img src="./img/camara-ip-dcs-931l-zoom-4x-mic-sensor-de-movimiento-d-link-3530-40.jpg"
+										alt="Cámara IP DCS-931L Zoom 4x / Mic / Sensor de movimiento D-Link">
+								</div>
+								<div class="product-body">
+									<p class="product-category">Hogar</p>
+									<h3 class="product-name"><a href="productcamara.html">Cámara IP DCS-931L Zoom 4x / Mic / Sensor de
+											movimiento D-Link</a></h3>
+									<h4 class="product-price">$34.19 <del class="product-old-price">$38.99</del></h4>
+								</div>
+							</div>
+							<!-- producto 6 -->
+						</div>
+					</div>
+				</div>
+				<!-- carrussel de celulares -->
+				<div class="clearfix visible-sm visible-xs"></div>
+
+				<div class="col-md-4 col-xs-6">
+					<div class="section-title">
+						<h4 class="title" id="celular">celular mas vendido</h4>
+						<div class="section-nav">
+							<div id="slick-nav-5" class="products-slick-nav"></div>
+						</div>
+					</div>
+
+					<div class="products-widget-slick" data-nav="#slick-nav-5">
+						<div>
+							<!-- producto 1 -->
+							<div class="product-widget">
+								<div class="product-img">
+									<img src="./img/xiaomi-celular-poco-m3.jpg"
+										alt="Xiaomi Celular Poco X3 CH29619 6GB / 128GB 64MP / 20MP 5160mAh">
+								</div>
+								<div class="product-body">
+									<p class="product-category">Celulares</p>
+									<h3 class="product-name"><a href="productpoco.html">Xiaomi Celular Poco X3 CH29619 6GB / 128GB 64MP
+											/ 20MP 5160mAh </a></h3>
+									<h4 class="product-price">$305.09 <del class="product-old-price">$338.99</del></h4>
+								</div>
+							</div>
+							<!-- /producto 1 -->
+
+							<!-- producto 2  -->
+							<div class="product-widget">
+								<div class="product-img">
+									<img src="./img/samsung-galaxy-a31-ch29314-4gb-64gb-5000mah-64.jpg"
+										alt="Samsung Galaxy A31 CH29314 4GB / 64GB 5000mAh 6.4'">
+								</div>
+								<div class="product-body">
+									<p class="product-category">Celulares</p>
+									<h3 class="product-name"><a href="#">Samsung Galaxy A31 CH29314 4GB / 64GB 5000mAh
+											6.4" </a></h3>
+									<h4 class="product-price">$392.39 <del class="product-old-price">$420.29</del></h4>
+								</div>
+							</div>
+							<!-- /producto 2 -->
+
+							<!-- producto 3 -->
+							<div class="product-widget">
+								<div class="product-img">
+									<img src="./img/samsung-galaxy-a31-ch29314-4gb-128gb-5000mah-64.jpg"
+										alt="cSamsung Galaxy A31 CH29314 4GB / 128GB 5000mAh 6.4'">
+								</div>
+								<div class="product-body">
+									<p class="product-category">Celulares</p>
+									<h3 class="product-name"><a href="producta31.html">Samsung Galaxy A31 CH29314 4GB / 128GB 5000mAh
+											6.4" </a></h3>
+									<h4 class="product-price">$359.99 <del class="product-old-price">$323.09</del></h4>
+								</div>
+							</div>
+							<!-- producto 3-->
+						</div>
+
+						<div>
+							<!-- producto 4 -->
+							<div class="product-widget">
+								<div class="product-img">
+									<img src="./img/xiaomi-celular-poco-m3.jpg" alt="cedular Xiaomi Celular Poco M3 ">
+								</div>
+								<div class="product-body">
+									<p class="product-category">Celulares</p>
+									<h3 class="product-name"><a href="productpoco.html">Xiaomi Celular Poco M3 </a></h3>
+									<h4 class="product-price">$392.39 <del class="product-old-price">$420.29</del></h4>
+								</div>
+							</div>
+							<!-- /producto 4 -->
+
+							<!-- producto 5 -->
+							<div class="product-widget">
+								<div class="product-img">
+									<img src="./img/xiaomi-redmi-note-9-ch29395-4gb-128gb-5020mah-653.jpg"
+										alt="Xiaomi Redmi Note 9 CH29395 4GB / 128GB / 5020mAh 6.53'">
+								</div>
+								<div class="product-body">
+									<p class="product-category">Celulares</p>
+									<h3 class="product-name"><a href="productnote9.html">Xiaomi Redmi Note 9 CH29395 4GB / 128GB /
+											5020mAh 6.53" </a></h3>
+									<h4 class="product-price">$325.79 <del class="product-old-price">$361.99</del></h4>
+								</div>
+							</div>
+							<!-- /producto 5 -->
+
+							<!-- producto 6 -->
+							<div class="product-widget">
+								<div class="product-img">
+									<img src="./img/xiaomi-mi-10t-pro-5g-ch29751-8gb-128gb-108mp-8k-5000mah-667.jpg"
+										alt="Xiaomi Mi 10T Pro 5G CH29751 8GB / 128GB / 108MP / 8K / 5000mAh 6.67'">
+								</div>
+								<div class="product-body">
+									<p class="product-category">Celulares</p>
+									<h3 class="product-name"><a href="productmi10t.html">Xiaomi Mi 10T Pro 5G CH29751 8GB /
+										128GB / 108MP / 8K / 5000mAh 6.67" </a></h3>
+										<h4 class="product-price">$1.016.99 <del
+											class="product-old-price">$1.129.99</del></h4>
+								</div>
+							</div>
+							<!-- producto 6 -->
+						</div>
+					</div>
+				</div>
+
+			</div>
+			<!-- /row -->
+		</div>
+		<!-- /container -->
+	</div>
+	<!-- /SECTION -->
+
+	<!-- NEWSLETTER -->
+	<div id="newsletter" class="section">
+		<!-- container -->
+		<div class="container">
+			<!-- row -->
+			<div class="row">
+				<div class="col-md-12">
+					<div class="newsletter">
+						<p>Registrate para <strong>Informarte</strong></p>
+						<form>
+							<input class="input" type="email" placeholder="Coloque su correo">
+							<button class="newsletter-btn"><i class="fa fa-envelope"></i> Suscribase</button>
+						</form>
+						<ul class="newsletter-follow">
+							<li>
+								<a href="https://www.facebook.com"><i class="fa fa-facebook"></i></a>
+							</li>
+							<li>
+								<a href="https://twitter.com"><i class="fa fa-twitter"></i></a>
+							</li>
+							<li>
+								<a href="https://www.instagram.com"><i class="fa fa-instagram"></i></a>
+							</li>
+							<li>
+								<a href="https://www.pinterest.com/"><i class="fa fa-pinterest"></i></a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<!-- /row -->
+		</div>
+		<!-- /container -->
+	</div>
+	<!-- /NEWSLETTER -->
+
+	<!-- FOOTER -->
+	<footer id="footer">
+		<!-- top footer -->
+		<div class="section">
+			<!-- container -->
+			<div class="container">
+				<!-- row -->
+				<div class="row">
+					<div class="col-md-3 col-xs-6">
+						<div class="footer">
+							<h3 class="footer-title">Sobre Nosotros</h3>
+							<p>Nuestro horario de atencion <br> Horas: 
+								<br>	viernes	10:00–20:00
+								<br>	sábado	10:00–20:00
+								<br>	domingo	10:00–20:00
+								<br>	lunes	10:00–20:00
+								<br>	martes	10:00–20:00
+								<br>	miércoles	10:00–20:00
+								<br>	jueves	10:00–20:00
+								</p>
+							<ul class="footer-links">
+								<li><a href="#"><i class="fa fa-phone"></i>+011-11-11-11</a></li>
+								<li><a href="#"><i class="fa fa-envelope-o"></i>todohogar@gmail.com</a></li>
+							</ul>
+						</div>
+					</div>
+
+					<div class="col-md-3 col-xs-6">
+						<div class="footer">
+							<h3 class="footer-title">Categorias</h3>
+							<ul class="footer-links">
+								<li><a href="#">Ofertas</a></li>
+								<li><a href="#">Laptops</a></li>
+								<li><a href="#">Smartphones</a></li>
+								<li><a href="#">Camaras</a></li>
+								<li><a href="#">Accesorios</a></li>
+							</ul>
+						</div>
+					</div>
+
+					<div class="clearfix visible-xs"></div>
+
+					<div class="col-md-3 col-xs-6">
+						<div class="footer">
+							<h3 class="footer-title">Information</h3>
+							<ul class="footer-links">
+								<li><a href="#">Informacion </a></li>
+								<li><a href="#">Contáctenos</a></li>
+								<li><a href="#">Politica de privacidad</a></li>
+								<li><a href="#">Pedidos y decoluciones</a></li>
+								<li><a href="#">Terminos & Condiciones</a></li>
+							</ul>
+						</div>
+					</div>
+
+					<div class="col-md-3 col-xs-6">
+						<div class="footer">
+							<h3 class="footer-title">Service</h3>
+							<ul class="footer-links">
+								
+								<li><a href="checkout.html">Ver carrito</a></li>
+								<li><a href="#">Lista de deseados</a></li>
+								<li><a href="#">Seguir mi pedido</a></li>
+								<li><a href="#">Ayuda</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<!-- /row -->
+			</div>
+			<!-- /container -->
+		</div>
+		<!-- /top footer -->
+
+		<!-- bottom footer -->
+		<div id="bottom-footer" class="section">
+			<div class="container">
+				<!-- PIE DE PAGINA MOSTRANDO TARJETAS QUE ACEPTA -->
+				<div class="row">
+					<div class="col-md-12 text-center">
+						<ul class="footer-payments">
+							<BR>SE ACEPTAN</BR>
+							<li> <i class="fa fa-cc-visa"> <br> VISA</i></li>
+							<li><i class="fa fa-credit-card"> <br> CREDIT CAR</i></li>
+							<li><i class="fa fa-cc-paypal"> <br> PAYPAL</i></li>
+							<li><i class="fa fa-cc-mastercard"> <br> MASTERCARD</i></li>
+							<li><i class="fa fa-cc-discover"> <br> DISCOVER</i></li>
+						</ul>
+						<span class="copyright">
+
+							Copyright &copy;
+							<script>document.write(new Date().getFullYear());</script> All rights reserved | Todo hogar
+
+						</span>
+					</div>
+				</div>
+				<!-- /row -->
+			</div>
+			<!-- /container -->
+		</div>
+		<!-- /bottom footer -->
+	</footer>
+	<!-- /FOOTER -->
+
+	<!-- jQuery Plugins -->
+	<script src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/slick.min.js"></script>
+	<script src="js/carrito.js"></script>
+	<script src="js/nouislider.min.js"></script>
+	<script src="js/jquery.zoom.min.js"></script>
+	<script src="js/main.js"></script>
+
+</body>
+
+</html>
